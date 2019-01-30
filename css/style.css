@@ -1,43 +1,45 @@
-.custom-popup{
+  .custom-popup{
     box-sizing: border-box;
   }
 
-* {
+  * {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-}
+  }
 
-body, html {
+  body, html {
     height: 100%;
     margin: 0;
+  }
+img{
+  max-width: 100%;
 }
 
+  .banner{
+    background-attachment: fixed;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
 
-.banner{
-        background-attachment: fixed;
-        background-image: url("../images/banner.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 100vh;
-        position: relative;
-      overflow: hidden;
-}
-
-.logo{
+  .logo{
     padding-top: 100px;
     width: 100%;
-}
+  }
 
-#details {
+  #details {
     background-image: url("../images/details-mountain.png");
     background-repeat: no-repeat;
-   margin: 100px 0;
+    margin: 100px 0;
     background-position: center;
-}
+  }
 
-#mountains {
+  #mountains {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -45,42 +47,42 @@ body, html {
     left: 0;
     z-index: 1;
     background: url("../images/mountains3.png") no-repeat center 96%;
-        background-size: auto auto;
+    background-size: auto auto;
     background-size: 93%;
     transform: scale(1.1);
-}
-#details p{
+  }
+  #details p{
     font-size: 14px;
-}
+  }
 
-.pad{
+  .pad{
     padding: 60px 0;
-}
+  }
 
 
-.title{
+  .title{
     font-weight: bold;
     font-size: 18px;
     color: #376875;
     padding: 20px 0;
-}
-.custom-container{
-    width: 850px;
+  }
+  .custom-container{
+    width: 860px;
     max-width: 100%;
     margin: 0 auto;
-}
+  }
 
-.row{
+  .row{
     margin: 0;
-}
+  }
 
-.circle i{
-padding-top: 23px;
- color: white;
- font-size: 30px;
-}
+  .circle i{
+    padding-top: 23px;
+    color: white;
+    font-size: 30px;
+  }
 
-.circle {
+  .circle {
     height: 75px;
     width: 75px;
     background-color: #376875;
@@ -88,17 +90,17 @@ padding-top: 23px;
     display: inline-block;
     text-align: center;
 
-}
+  }
 
-.info-title{
+  .info-title{
     padding-top: 15px;
     font-size: 18px;
     font-weight: 600;
     color: black;
-}
+  }
 
-/* REGISTER */
-.form-container {
+  /* REGISTER */
+  .form-container {
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
@@ -131,7 +133,7 @@ padding-top: 23px;
   }
 
   .blue-bg{
-      background: #376875;
+    background: #376875;
   }
 
   .submitbtn {
@@ -256,9 +258,9 @@ padding-top: 23px;
     display: block;
   }
 
- .countdown {
+  .countdown {
     padding: 30px 0;
-}
+  }
   .time {
     position: relative;
     display: inline-block;
@@ -306,8 +308,67 @@ padding-top: 23px;
   }
   .banner-countdown .countdown {
     padding: 0;
-  
+
   }
   .banner-countdown .time{
     color: #fff;
+  }
+
+@media (max-width: 1024px){
+  #mountains{
+    -webkit-background-size: 100%;
+    background-size: 100%;
+  }
+}
+    @media (max-width: 860px){
+    .custom-container{
+      padding: 0 15px;
+    }
+  }
+   @media (max-width: 767px){
+    .custom-popup {
+      width: 80%;
+    }
+    .form-container{
+      padding: 0 15px;
+    }
+  }
+    @media (max-width: 640px) {
+      .time{
+        font-size: 25px;
+      }
+.time::after{
+  font-size: 16px !important;
+}
+    .custom-popup {
+      width: 95%;
+    }
+    .register-btn {
+      margin-top: 30px;
+    }
+
+    .info_section input, .transport_section select {
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 480px){
+    .time::after{
+  font-size: 12px !important;
+}
+    .logo img {
+    width: 275px;
+}
+    .circle i {
+    padding-top: 16px;
+    font-size: 20px;
+}
+    .circle{
+      width: 50px;
+      height: 50px;
+    }
+    .info-title{
+      font-size: 13px;
+    }
   }
