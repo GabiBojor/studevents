@@ -328,7 +328,7 @@ img{
    @media (max-width: 767px){
 
     #mountains{
-      background-image: url("/images/mobile-mountains.png");
+      background-image: url("../images/mobile-mountains.png");
     }
 
     .custom-popup {
