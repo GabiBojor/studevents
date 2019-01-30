@@ -325,11 +325,16 @@ img{
       padding: 0 15px;
     }
   }
-   @media (max-width: 767px){
 
+  @media (max-width: 768px){
     #mountains{
       background-image: url("../images/mobile-mountains.png");
     }
+  }
+
+   @media (max-width: 767px){
+
+   
 
     .custom-popup {
       width: 80%;
