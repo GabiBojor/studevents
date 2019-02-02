@@ -120,7 +120,7 @@ img{
   }
 
   .info_section input, .transport_section select {
-    border: none;
+    border: 1px solid #376875;
     font-size: 14px;
     height: 40px;
     padding: 6px 12px;
@@ -160,7 +160,7 @@ img{
     -moz-appearance: none;
     appearance: none;
     background: #fff url("../images/arrow.png") no-repeat scroll 100% center;
-    border: medium none;
+    border: 1px solid #376875;
     background-size: 35px auto;
     text-align: left;
   }
