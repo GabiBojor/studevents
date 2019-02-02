@@ -40,6 +40,7 @@ img{
   }
 
 .banner-btn{
+  position: relative;
     background: #fff;
     border: none;
     color: #376875;
@@ -51,7 +52,7 @@ img{
     border-radius: 5px;
     text-decoration: none;
     z-index: 9999;
-    margin: 50px auto 0;
+    margin: 100px auto 0;
     width: 200px;
 }
   #mountains {
