@@ -11,7 +11,7 @@ function moveBackground() {
   
   translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
 
-  $('#mountains').css({
+  $('.photo-effect').css({
     '-webit-transform': translate,
     '-moz-transform': translate,
     'transform': translate
