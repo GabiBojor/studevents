@@ -52,7 +52,7 @@ img{
     border-radius: 5px;
     text-decoration: none;
     z-index: 9999;
-    margin: 100px auto 0;
+    margin: 10% auto 0;
     width: 200px;
 }
   #mountains {
@@ -293,7 +293,7 @@ img{
   .time:nth-child(1)::after {
     margin-left: -7px;
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     content: "zile";
@@ -301,7 +301,7 @@ img{
   .time:nth-child(2)::after {
     margin-left: -7px;
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     content: "ore";
